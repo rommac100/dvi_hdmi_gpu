@@ -481,7 +481,7 @@ HDMI2CKS
 Text Label 2850 6650 3    50   ~ 0
 HDMI2GND
 Text Label 2950 6650 3    50   ~ 0
-HDMI2SH
+SH
 Text Label 5150 4050 0    50   ~ 0
 HDMI15V
 Text Label 4700 4450 1    50   ~ 0
@@ -517,5 +517,5 @@ HDMI1CKS
 Text Label 5350 6700 0    50   ~ 0
 HDMI1GND
 Text Label 5500 6650 0    50   ~ 0
-HDMI1SH
+SH
 $EndSCHEMATC
