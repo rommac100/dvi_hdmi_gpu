@@ -1,0 +1,521 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7350 7500 0    50   ~ 0
+GPU Dual (single-link) DVI to Dual HDMI
+Text Notes 10600 7650 0    50   ~ 0
+2.0\n
+$Comp
+L Connector:HDMI_A J1
+U 1 1 5F33948F
+P 2650 5500
+F 0 "J1" H 3080 5546 50  0000 L CNN
+F 1 "HDMI_A" H 3080 5455 50  0000 L CNN
+F 2 "footprints:HDMI_A_Female_2000-1-2-41-00-BK" H 2675 5500 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 2675 5500 50  0001 C CNN
+	1    2650 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_parts:DVI-DP-29-C-G-HN-4 J2
+U 1 1 5F33BFBD
+P 7550 3800
+F 0 "J2" H 7500 3700 50  0000 R CNN
+F 1 "DVI-DP-29-C-G-HN-4" H 7900 3800 50  0000 R CNN
+F 2 "footprints:DVI-DP-29-C-G-HN-4" H 7550 3800 50  0001 C CNN
+F 3 "" H 7550 3800 50  0001 C CNN
+	1    7550 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 4700 4700 2700
+Wire Wire Line
+	4700 2700 6650 2700
+Wire Wire Line
+	6650 2700 6650 2800
+Wire Wire Line
+	4900 6600 4650 6600
+Wire Wire Line
+	4650 6600 4650 2650
+Wire Wire Line
+	4650 2650 6850 2650
+Wire Wire Line
+	6850 2650 6850 2800
+Wire Wire Line
+	4700 4800 4600 4800
+Wire Wire Line
+	4600 4800 4600 2600
+Wire Wire Line
+	4600 2600 6450 2600
+Wire Wire Line
+	6450 2600 6450 2800
+Wire Wire Line
+	4700 4900 4550 4900
+Wire Wire Line
+	4550 4900 4550 2550
+Wire Wire Line
+	4550 2550 6750 2550
+Wire Wire Line
+	6750 2550 6750 2800
+Wire Wire Line
+	5000 6600 5000 6650
+Wire Wire Line
+	5000 6650 4500 6650
+Wire Wire Line
+	4500 6650 4500 2500
+Wire Wire Line
+	4500 2500 6950 2500
+Wire Wire Line
+	6950 2500 6950 2800
+Wire Wire Line
+	4700 5000 4450 5000
+Wire Wire Line
+	4450 5000 4450 2450
+Wire Wire Line
+	4450 2450 6550 2450
+Wire Wire Line
+	6550 2450 6550 2800
+Wire Wire Line
+	4700 5100 4400 5100
+Wire Wire Line
+	4400 2400 6250 2400
+Wire Wire Line
+	6250 2400 6250 3800
+Wire Wire Line
+	6250 3800 6650 3800
+Wire Wire Line
+	6650 3800 6650 3700
+Wire Wire Line
+	4400 2400 4400 5100
+Wire Wire Line
+	5100 6600 5100 6700
+Wire Wire Line
+	5100 6700 4350 6700
+Wire Wire Line
+	4350 6700 4350 2350
+Wire Wire Line
+	4350 2350 6200 2350
+Wire Wire Line
+	6200 2350 6200 3850
+Wire Wire Line
+	6200 3850 6850 3850
+Wire Wire Line
+	6850 3850 6850 3700
+Wire Wire Line
+	4700 5200 4300 5200
+Wire Wire Line
+	4300 5200 4300 2300
+Wire Wire Line
+	4300 2300 6150 2300
+Wire Wire Line
+	6150 2300 6150 3750
+Wire Wire Line
+	6150 3750 6450 3750
+Wire Wire Line
+	6450 3750 6450 3700
+Wire Wire Line
+	4700 5300 4250 5300
+Wire Wire Line
+	4250 5300 4250 2250
+Wire Wire Line
+	4250 2250 6100 2250
+Wire Wire Line
+	6100 2250 6100 3900
+Wire Wire Line
+	6100 3900 7650 3900
+Wire Wire Line
+	7650 3900 7650 3700
+Wire Wire Line
+	5200 6600 5200 6750
+Wire Wire Line
+	5200 6750 4200 6750
+Wire Wire Line
+	4200 6750 4200 2200
+Wire Wire Line
+	4200 2200 6050 2200
+Wire Wire Line
+	6050 2200 6050 3950
+Wire Wire Line
+	6050 3950 7450 3950
+Wire Wire Line
+	7450 3950 7450 3700
+Wire Wire Line
+	4700 5400 4150 5400
+Wire Wire Line
+	4150 5400 4150 2150
+Wire Wire Line
+	4150 2150 6000 2150
+Wire Wire Line
+	6000 2150 6000 4000
+Wire Wire Line
+	6000 4000 7850 4000
+Wire Wire Line
+	7850 4000 7850 3700
+$Comp
+L Connector:HDMI_A J0
+U 1 1 5F338920
+P 5100 5500
+F 0 "J0" H 5530 5546 50  0000 L CNN
+F 1 "HDMI_A" H 5530 5455 50  0000 L CNN
+F 2 "footprints:HDMI_A_Female_2000-1-2-41-00-BK" H 5125 5500 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 5125 5500 50  0001 C CNN
+	1    5100 5500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4700 5600
+Wire Wire Line
+	4700 5800 4100 5800
+Wire Wire Line
+	4100 5800 4100 2100
+Wire Wire Line
+	4100 2100 6300 2100
+Wire Wire Line
+	6300 2100 6300 2400
+Wire Wire Line
+	6300 2400 7450 2400
+Wire Wire Line
+	7450 2400 7450 2800
+Wire Wire Line
+	4700 5900 4050 5900
+Wire Wire Line
+	4050 5900 4050 2050
+Wire Wire Line
+	4050 2050 6350 2050
+Wire Wire Line
+	6350 2050 6350 2350
+Wire Wire Line
+	6350 2350 7650 2350
+Wire Wire Line
+	7650 2350 7650 2800
+Wire Wire Line
+	5300 6600 5300 6700
+Wire Wire Line
+	5300 6700 5900 6700
+Wire Wire Line
+	5900 6700 5900 2750
+Wire Wire Line
+	5900 2750 7750 2750
+Wire Wire Line
+	7750 2750 7750 2800
+Wire Wire Line
+	5100 4400 5100 4050
+Wire Wire Line
+	5100 4050 8650 4050
+Wire Wire Line
+	8650 4050 8650 2700
+Wire Wire Line
+	8650 2700 7550 2700
+Wire Wire Line
+	7550 2700 7550 2800
+NoConn ~ 4700 6100
+Wire Wire Line
+	4700 6200 4700 6800
+Wire Wire Line
+	4700 6800 5950 6800
+Wire Wire Line
+	5950 6800 5950 4100
+Wire Wire Line
+	5950 4100 8700 4100
+Wire Wire Line
+	8700 4100 8700 2650
+Wire Wire Line
+	8700 2650 7950 2650
+Wire Wire Line
+	7950 2650 7950 2800
+Wire Wire Line
+	5400 6600 5400 6650
+Wire Wire Line
+	5400 6650 6000 6650
+Wire Wire Line
+	6000 6650 6000 4150
+Wire Wire Line
+	6000 4150 8550 4150
+Wire Wire Line
+	8550 4150 8550 3600
+Wire Wire Line
+	2250 4700 2250 1000
+Wire Wire Line
+	2250 1000 6600 1000
+Wire Wire Line
+	6600 1000 6600 1050
+Wire Wire Line
+	2450 6600 2200 6600
+Wire Wire Line
+	2200 6600 2200 950 
+Wire Wire Line
+	2200 950  6800 950 
+Wire Wire Line
+	6800 950  6800 1050
+Wire Wire Line
+	2250 4800 2150 4800
+Wire Wire Line
+	2150 4800 2150 900 
+Wire Wire Line
+	2150 900  6400 900 
+Wire Wire Line
+	6400 900  6400 1050
+Wire Wire Line
+	2250 4900 2100 4900
+Wire Wire Line
+	2100 4900 2100 850 
+Wire Wire Line
+	2100 850  6700 850 
+Wire Wire Line
+	6700 850  6700 1050
+Wire Wire Line
+	2550 6600 2550 6650
+Wire Wire Line
+	2550 6650 2050 6650
+Wire Wire Line
+	2050 6650 2050 800 
+Wire Wire Line
+	2050 800  6900 800 
+Wire Wire Line
+	6900 800  6900 1050
+Wire Wire Line
+	2250 5000 2000 5000
+Wire Wire Line
+	2000 5000 2000 750 
+Wire Wire Line
+	2000 750  6500 750 
+Wire Wire Line
+	6500 750  6500 1050
+Wire Wire Line
+	2250 5100 1950 5100
+Wire Wire Line
+	1950 5100 1950 700 
+Wire Wire Line
+	1950 700  8750 700 
+Wire Wire Line
+	8750 700  8750 2300
+Wire Wire Line
+	8750 2300 6600 2300
+Wire Wire Line
+	6600 2300 6600 1950
+Wire Wire Line
+	2650 6600 2650 6850
+Wire Wire Line
+	2650 6850 6150 6850
+Wire Wire Line
+	6150 6850 6150 4400
+Wire Wire Line
+	6150 4400 8800 4400
+Wire Wire Line
+	8800 4400 8800 2250
+Wire Wire Line
+	8800 2250 6800 2250
+Wire Wire Line
+	6800 2250 6800 1950
+Wire Wire Line
+	2250 5200 1900 5200
+Wire Wire Line
+	1900 5200 1900 650 
+Wire Wire Line
+	1900 650  6200 650 
+Wire Wire Line
+	6200 650  6200 1950
+Wire Wire Line
+	6200 1950 6400 1950
+Wire Wire Line
+	2250 5300 1850 5300
+Wire Wire Line
+	1850 5300 1850 600 
+Wire Wire Line
+	1850 600  8800 600 
+Wire Wire Line
+	8800 600  8800 2200
+Wire Wire Line
+	8800 2200 7600 2200
+Wire Wire Line
+	7600 2200 7600 1950
+Wire Wire Line
+	2750 6600 2750 6900
+Wire Wire Line
+	2750 6900 6200 6900
+Wire Wire Line
+	6200 6900 6200 4450
+Wire Wire Line
+	6200 4450 8850 4450
+Wire Wire Line
+	8850 4450 8850 2150
+Wire Wire Line
+	7400 2150 7400 1950
+Wire Wire Line
+	8850 2150 7400 2150
+Wire Wire Line
+	2250 5400 2150 5400
+Wire Wire Line
+	2150 5400 2150 6950
+Wire Wire Line
+	2150 6950 6250 6950
+Wire Wire Line
+	6250 6950 6250 4500
+Wire Wire Line
+	6250 4500 8900 4500
+Wire Wire Line
+	8900 4500 8900 2100
+Wire Wire Line
+	8900 2100 7800 2100
+Wire Wire Line
+	7800 2100 7800 1950
+NoConn ~ 2250 5600
+NoConn ~ 2250 6100
+Wire Wire Line
+	2250 5800 1800 5800
+Wire Wire Line
+	1800 5800 1800 550 
+Wire Wire Line
+	1800 550  7400 550 
+Wire Wire Line
+	7400 550  7400 1050
+Wire Wire Line
+	2250 5900 1750 5900
+Wire Wire Line
+	1750 5900 1750 500 
+Wire Wire Line
+	1750 500  7600 500 
+Wire Wire Line
+	7600 500  7600 1050
+Wire Wire Line
+	2650 4400 3100 4400
+Wire Wire Line
+	3100 4400 3100 7000
+Wire Wire Line
+	3100 7000 6300 7000
+Wire Wire Line
+	6300 7000 6300 4550
+Wire Wire Line
+	6300 4550 8950 4550
+Wire Wire Line
+	8950 750  7500 750 
+Wire Wire Line
+	7500 750  7500 1050
+Wire Wire Line
+	8950 4550 8950 750 
+Wire Wire Line
+	2850 6600 2850 7050
+Wire Wire Line
+	2850 7050 6350 7050
+Wire Wire Line
+	6350 7050 6350 4600
+Wire Wire Line
+	6350 4600 9000 4600
+Wire Wire Line
+	9000 4600 9000 800 
+Wire Wire Line
+	9000 800  7700 800 
+Wire Wire Line
+	7700 800  7700 1050
+Wire Wire Line
+	2250 6200 2000 6200
+Wire Wire Line
+	2000 6200 2000 7100
+Wire Wire Line
+	2000 7100 6400 7100
+Wire Wire Line
+	6400 7100 6400 4650
+Wire Wire Line
+	6400 4650 9050 4650
+Wire Wire Line
+	9050 4650 9050 850 
+Wire Wire Line
+	9050 850  7900 850 
+Wire Wire Line
+	7900 850  7900 1050
+Wire Wire Line
+	2950 7200 6500 7200
+Wire Wire Line
+	6500 7200 6500 4750
+Wire Wire Line
+	6500 4750 9150 4750
+Wire Wire Line
+	9150 4750 9150 1850
+Wire Wire Line
+	9150 1850 8500 1850
+Wire Wire Line
+	2950 6600 2950 7200
+Text Label 2850 4400 0    50   ~ 0
+HDMI25V
+Text Label 2250 4400 1    50   ~ 0
+HDMI2D2+
+Text Label 2150 4400 1    50   ~ 0
+HDMI2D2-
+Text Label 2100 4800 1    50   ~ 0
+HDMI2D1+
+Text Label 2000 4400 1    50   ~ 0
+HDMI2D1-
+Text Label 1950 5000 1    50   ~ 0
+HDMI2D0+
+Text Label 1900 4550 1    50   ~ 0
+HDMI2D0-
+Text Label 1850 5150 1    50   ~ 0
+HDMI2CK+
+Text Label 2150 5400 3    50   ~ 0
+HDMI2CK-
+Text Label 1800 5750 1    50   ~ 0
+HDMI2SCL
+Text Label 1750 5850 1    50   ~ 0
+HDMI2SDA
+Text Label 2000 6500 1    50   ~ 0
+HDMI2HPD
+Text Label 2200 6550 1    50   ~ 0
+HDMI2D2S
+Text Label 2050 6150 1    50   ~ 0
+HDMI2D1S
+Text Label 2650 6600 3    50   ~ 0
+HDMI2D0S
+Text Label 2750 6650 3    50   ~ 0
+HDMI2CKS
+Text Label 2850 6650 3    50   ~ 0
+HDMI2GND
+Text Label 2950 6650 3    50   ~ 0
+HDMI2SH
+Text Label 5150 4050 0    50   ~ 0
+HDMI15V
+Text Label 4700 4450 1    50   ~ 0
+HDMI1D2+
+Text Label 4600 4700 1    50   ~ 0
+HDMI1D2-
+Text Label 4550 4250 1    50   ~ 0
+HDMI1D1+
+Text Label 4450 4650 1    50   ~ 0
+HDMI1D1-
+Text Label 4400 5050 1    50   ~ 0
+HDMI1D0+
+Text Label 4300 4650 1    50   ~ 0
+HDMI1D0-
+Text Label 4250 5100 1    50   ~ 0
+HDMI1CK+
+Text Label 4150 5300 1    50   ~ 0
+HDMI1CK-
+Text Label 4100 5700 1    50   ~ 0
+HDMI1SCL
+Text Label 4050 5850 1    50   ~ 0
+HDMI1SDA
+Text Label 4700 6250 3    50   ~ 0
+HDMI1HPD
+Text Label 4650 6200 1    50   ~ 0
+HDMI1D2S
+Text Label 4500 6600 1    50   ~ 0
+HDMI1D1S
+Text Label 4350 6600 1    50   ~ 0
+HDMI1D0S
+Text Label 4200 6650 1    50   ~ 0
+HDMI1CKS
+Text Label 5350 6700 0    50   ~ 0
+HDMI1GND
+Text Label 5500 6650 0    50   ~ 0
+HDMI1SH
+$EndSCHEMATC
