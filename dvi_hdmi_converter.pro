@@ -1,4 +1,4 @@
-update=Mon 10 Aug 2020 06:59:13 PM MST
+update=Wed 12 Aug 2020 01:33:26 PM MST
 version=1
 last_client=kicad
 [general]
@@ -22,7 +22,7 @@ AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.001
+MinTrackWidth=0.01
 MinViaDiameter=0.4
 MinViaDrill=0.3
 MinMicroViaDiameter=0.2
@@ -42,9 +42,9 @@ ViaDrill3=0.4
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
-dPairWidth2=0.15
-dPairGap2=0.1
-dPairViaGap2=0.1
+dPairWidth2=0.1
+dPairGap2=0.192
+dPairViaGap2=0.2
 SilkLineWidth=0.12
 SilkTextSizeV=1
 SilkTextSizeH=1
@@ -70,7 +70,7 @@ SolderMaskMinWidth=0
 SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
-Name=F.Cu
+Name=TMDSMain
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
@@ -78,7 +78,7 @@ Name=GND
 Type=1
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=In2.Cu
+Name=other_signals
 Type=0
 Enabled=1
 [pcbnew/Layer.In3.Cu]
@@ -194,7 +194,7 @@ Name=In30.Cu
 Type=0
 Enabled=0
 [pcbnew/Layer.B.Cu]
-Name=B.Cu
+Name=TMDS
 Type=0
 Enabled=1
 [pcbnew/Layer.B.Adhes]
@@ -240,28 +240,6 @@ Enabled=0
 Name=Default
 Clearance=0.2
 TrackWidth=0.25
-ViaDiameter=0.8
-ViaDrill=0.4
-uViaDiameter=0.3
-uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
-dPairViaGap=0.25
-[pcbnew/Netclasses/1]
-Name=Diff_Traces
-Clearance=0.1
-TrackWidth=0.05
-ViaDiameter=0.8
-ViaDrill=0.4
-uViaDiameter=0.3
-uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
-dPairViaGap=0.25
-[pcbnew/Netclasses/2]
-Name=Standard_Traces
-Clearance=0.2
-TrackWidth=0.01
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
